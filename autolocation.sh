@@ -54,4 +54,5 @@ then
 fi
 
 echo "Successfully switched !"
+/usr/bin/osascript -e "display notification \"Switched to Location: $location\" with title \"Auto Location Switcher\""
 exit 0
